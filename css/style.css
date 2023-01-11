@@ -23,7 +23,7 @@ html {
   .container{
     margin: 1em auto;
     width: 90%;
-   /* background-color: red;*/
+    /*background-color: red;*/
    
    
     
@@ -145,5 +145,12 @@ text-decoration: none;
         background-image: url("../img/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size:100% 50%;
+    }
+    
+    .components{
+        display: flex;
+        align-items: center;
+      
+        height: 100vh;
     }
 }
